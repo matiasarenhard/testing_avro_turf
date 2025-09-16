@@ -1,0 +1,20 @@
+{
+  "name": "person",
+  "namespace": "contacts",
+  "type": "record",
+  "fields": [
+    {
+      "name": "address",
+      "type": {
+        "name": "address",
+        "type": "record",
+        "fields": [
+          { "name": "addr1", "type": "string" },
+          { "name": "addr2", "type": "string" },
+          { "name": "city", "type": "string" },
+          { "name": "zip", "type": "string" }
+        ]
+      }
+    }
+  ]
+}
